@@ -1,6 +1,6 @@
 # Student Habits and Academic Performance Analysis
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes how student lifestyle habits affect academic performance using a dataset of 1,000 students.  
 It explores how daily behaviors such as study time, sleep, social media usage, diet, and mental health influence exam scores.
 
@@ -8,7 +8,7 @@ The project uses data analysis, visualization, and machine learning techniques t
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - To study student lifestyle patterns
 - To analyze the relationship between habits and exam scores
 - To identify the most important factors affecting academic performance
@@ -16,7 +16,7 @@ The project uses data analysis, visualization, and machine learning techniques t
 
 ---
 
-## 📊 Dataset Information
+##  Dataset Information
 - Total records: 1,000 students  
 - Total features: 16 variables  
 
@@ -41,7 +41,7 @@ The project uses data analysis, visualization, and machine learning techniques t
 
 ---
 
-## 🧹 Data Preprocessing
+##  Data Preprocessing
 - Handled inconsistent values in categorical variables (parental education level contained "None", which was recoded as "Unknown")
 - Checked for missing values and duplicates (none found)
 - Encoded categorical variables into numerical format
@@ -49,7 +49,7 @@ The project uses data analysis, visualization, and machine learning techniques t
 
 ---
 
-## 📈 Methodology
+##  Methodology
 The analysis followed these steps:
 
 1. **Descriptive Statistics**
@@ -80,14 +80,14 @@ The analysis followed these steps:
 
 ---
 
-## 🤖 Models Used
+##  Models Used
 - Multiple Linear Regression (baseline model)
 - Forward Selection (feature optimization)
 - Ridge Regression (final model)
 
 ---
 
-## 📌 Key Findings
+##  Key Findings
 - Study hours per day is the strongest positive factor affecting exam scores
 - Mental health also has a positive impact on performance
 - Social media and Netflix usage show negative effects on scores
@@ -96,14 +96,14 @@ The analysis followed these steps:
 
 ---
 
-## 📉 Model Interpretation
+##  Model Interpretation
 - More study hours → higher exam scores
 - Higher mental health rating → better performance
 - More screen time (social media/Netflix) → lower performance
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 - Dataset is simulated, not real student data
 - Some important factors (stress, teaching quality, income) are not included
 - Cannot prove causation, only relationships
@@ -111,7 +111,7 @@ The analysis followed these steps:
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Use real student data for better accuracy
 - Add more variables like stress and socioeconomic status
 - Try advanced models like Random Forest or Gradient Boosting
@@ -119,7 +119,7 @@ The analysis followed these steps:
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 - Python
 - Pandas & NumPy
 - Matplotlib & Seaborn
@@ -127,7 +127,7 @@ The analysis followed these steps:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 This project shows that student lifestyle habits significantly influence academic performance.  
 Among all factors, study habits and mental health are the most important predictors of exam success.
 
